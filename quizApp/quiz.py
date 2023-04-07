@@ -144,17 +144,21 @@ for i in question :
         else :
             print("worng Input@#$%")
 
+sum = 0
 
-sums = 0
 for i in marvalCharecters.character() :
-    print(exec("%d"%(i.lower())))
+    # print(exec("%d"%(i.lower())))
     # exec("%s += %f" % (sums,i.lower()))
 
+    # print(i.lower())
+    # print(thor)
+    # exec("%s += %d" % (sum,a))
+
+    sum += locals()[i.lower()]
 
 
-
-
-
-# marvalCharecters.result(sum)
-            
-                
+print()
+print("YOUR RESULT :")
+for i in marvalCharecters.character() :
+    answer = ((locals()[i.lower()] / sum )*100)
+    print(i.upper()," = ",round(answer),"%")
