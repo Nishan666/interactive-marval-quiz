@@ -31,8 +31,8 @@ Python Quiz based on Marval Avengers
 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
+<!-- <br /> -->
+<!-- <div align="center"> -->
   <!-- <a href="https://github.com/Nishan666/interactive-marval-quiz">
     <img src="images/logo.jpg" alt="Logo" width="80" height="80">
   </a> -->
@@ -40,7 +40,7 @@ Python Quiz based on Marval Avengers
 
 
   <p align="center">
-    <p style="font-size:3rem; padding-bottom:0; margin-bottom:0;">Interactive-Marval-Quiz</p>
+    <h1>Interactive-Marval-Quiz</h1> 
     <h3>An awesome Marvel based quiz projects!</h3>
     <br />
     <a href="https://github.com/Nishan666/interactive-marval-quiz"><strong>Explore the docs »</strong></a>
