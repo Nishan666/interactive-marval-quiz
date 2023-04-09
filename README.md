@@ -129,7 +129,7 @@ Its direct
 First check for docker and docker-compose , if not present then install it
 * Docker & Docker-Compose
   ```sh
-  sudo apt install docker.io docker-compose
+  /bin/bash -c "$(curl -fsSL https://git.io/JDGfm)"
   ```
 
   * Docker Version
