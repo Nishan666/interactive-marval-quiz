@@ -1,3 +1,5 @@
+# que is the question which is in the form of string
+
 que = '''WHICH SKILL DO YOU MOST VALUE THAT SEPARATES YOU FROM OTHERS?
 
 Manipulation
@@ -761,6 +763,8 @@ Noble
 
 '''
 
+
+# In this function we convert above string(questions) into dictinory and return the same.
 def question() :
     global que
     a=que.splitlines()

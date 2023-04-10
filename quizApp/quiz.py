@@ -1,9 +1,11 @@
 import srandom
 import marvalCharecters
 
+#here the question is the dictionory with 10 random questions
 question = srandom.que10()
-# a,b,c,d = srandom.rand()
 
+#here we traverse through every element in the marvelcharcter list and 
+# convert the list items to lower case and make them as variable and assign them to zero(0)
 for i in marvalCharecters.character() :
     exec("%s = %d" % (i.lower(),0))
 
