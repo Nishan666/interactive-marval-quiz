@@ -1,4 +1,4 @@
-# que is the question which is in the form of string
+# que is the questions which is in the form of string
 
 que = '''WHICH SKILL DO YOU MOST VALUE THAT SEPARATES YOU FROM OTHERS?
 

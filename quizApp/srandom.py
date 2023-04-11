@@ -7,7 +7,7 @@ import marvalCharecters
 listss = marvalCharecters.character()
 
 
-# in this function rand , it pices n random number (n depend upon the number of elements in the litss, which is number of marvel charcter)
+# In this function rand , it picks n random number (n depend upon the number of elements in the litss, which is number of marvel charcter)
 # and sum of them is not more then 100
 def rand() :
     lenght = (len(marvalCharecters.character())+1)
@@ -45,7 +45,7 @@ def marval() :
     #if the list is empty add all the element to the list
     if listss == [] :
         listss = marvalCharecters.character()
-    # print(listss)
+        
     singleChoice = random.choice(listss)
     del listss[listss.index(singleChoice)]
     return singleChoice
